@@ -1,0 +1,64 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f6f1;;
+ width: -webkit-fill-available;
+  }
+  
+  .contact-us {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    color: #0084ff;
+  }
+  
+  .social-icons a:focus {
+    outline: none;
+  }
+  
+  .social-icons a:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .copy-right {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      padding: none;
+    }
+    
+    .social-icons {
+      margin-top: 10px;
+    }
+    
+    .copy-right {
+      font-size: 0.7rem;
+    }
+  }
+  
