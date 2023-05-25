@@ -17,10 +17,14 @@ import React from 'react';
 import './Header.css';
 
 function Header() {
+  function openLinkInNewTab() {
+    window.open("https://cosmofeed.com/vp/6463d02767e31e001f51c6fd", "_blank");
+  }
+  
   return (
     <header className="header">
-      <div className="left">​🇮​​🇳​​🇹​​🇪​​🇷​​🇳​​🇪​​🇦​​🇸​​🇪​</div>
-      <div className="right"><button className="apply-now">Apply Now</button></div>
+      <div className="left">SkillSummer</div>
+      <div className="right"><button className="apply-now" onClick={openLinkInNewTab}>Apply Now</button></div>
     </header>
   );
 }
