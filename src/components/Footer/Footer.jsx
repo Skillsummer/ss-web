@@ -1,17 +1,4 @@
-// import React, { useState } from "react";
 
-// const Footer = () => {
-//   return (
-//     <>
-//       <div className="footer  d-flex align-items-center ">
-      
-//         <div className=" fs-16 fw-600"> Contact Us</div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Footer
 
 import React from 'react';
 import './Footer.css';

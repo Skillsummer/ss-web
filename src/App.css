@@ -64,3 +64,85 @@
   font-family: Ginger-Regular, Helvetica, sans-serif;
   font-weight: 500;
 }
+.main-content-box {
+  flex-direction: row;
+  margin-top: 10rem;
+  height: 100%;
+  margin-bottom: 20rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+}
+.main-text-box{
+  margin-left: 2rem;
+  @media screen and (max-width: 768px) {
+    margin-left: 0.1rem;
+  }
+}
+
+.line1{
+  font-size: 2rem;
+  font-family: Ginger-Regular, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(103, 102, 102);
+}
+.line2{
+  font-size: 3rem;
+  font-family: Ginger-Regular, Helvetica, sans-serif;
+  font-weight: 800;
+  width: 70%;
+  color: rgb(90, 89, 89);
+  @media screen and (max-width: 768px) {
+    font-weight: 600;
+  }
+}
+.line3{
+ 
+  
+  font-size: 2rem;
+  font-family: Ginger-Regular, Helvetica, sans-serif;
+  font-weight: 500;
+  color: rgb(103, 102, 102);
+  
+  width: 35%;
+  @media screen and (max-width: 768px) {
+    width:100%;
+  }
+}
+.line4{
+  @media screen and (max-width: 768px){
+    display: flex;
+    justify-content: center;
+    
+  }
+
+}
+.mt{
+  margin-top: 1rem;
+  @media screen and (max-width: 768px) {
+    margin-top: 3rem;
+  }
+}
+
+.info-card {
+  background-color: #1386a7;
+  width: 18rem;
+  height: 20rem;
+  border-radius: 2rem;
+  @media screen and (max-width: 768px) {
+    margin-top: 3rem;
+  }
+
+}
+.card-points{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly ;
+  height: 100%;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  
+}
+
